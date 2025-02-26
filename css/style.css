@@ -111,7 +111,7 @@
 
 /*** Navbar Start ***/
 .nav-bar {
-    background: var(--bs-white);
+    background: var(--bs-dark);
 }
 
 .sticky-top {
@@ -120,11 +120,11 @@
 
 .navbar-light .navbar-nav .nav-link {
     position: relative;
-    margin-right: 25px;
+    margin-right: 50px;
     padding: 35px 0;
     letter-spacing: 1px;
-    color: var(--bs-dark);
-    font-size: 17px;
+    color: var(--bs-white);
+    font-size: 20px;
     font-weight: 500;
     outline: none;
     transition: .5s;
@@ -132,7 +132,7 @@
 
 .sticky-top .navbar-light .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--bs-dark);
+    color: var(--bs-white);
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -146,7 +146,7 @@
 }
 
 .sticky-top .navbar-light .navbar-brand img {
-    max-height: 50px;
+    max-height: 100px;
 }
 
 .navbar .dropdown-toggle::after {
